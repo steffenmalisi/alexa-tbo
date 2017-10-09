@@ -1,0 +1,37 @@
+{
+  "session": {
+    "sessionId": "SessionId.2eaaa31b-c020-4f0e-9f88-b51b32f1f5af",
+    "application": {
+      "applicationId": "appId"
+    },
+    "attributes": {},
+    "user": {
+      "userId": "amzn1.ask.account.911"
+    },
+    "new": true
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.f946de60-d840-4e6a-8078-2ec5dedba0de",
+    "locale": "de-DE",
+    "timestamp": "2017-05-22T06:38:59Z",
+    "intent": {
+      "name": "PrepareIntent",
+      "slots": {
+        "Vehicle": {
+          "name": "Vehicle"
+        },
+        "Mileage": {
+          "name": "Mileage"
+        },
+        "Period": {
+          "name": "Period"
+        },
+        "Reason": {
+          "name": "Reason"
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

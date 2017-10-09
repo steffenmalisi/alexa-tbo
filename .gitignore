@@ -1,0 +1,9 @@
+.vscode
+
+index.zip
+
+src/node_modules
+src/app.config.json
+
+test/node_modules
+test/aws.config.json

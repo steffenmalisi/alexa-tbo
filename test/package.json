@@ -1,0 +1,21 @@
+{
+  "name": "alexa-tbo-test",
+  "version": "1.0.0",
+  "description": "Test package for the Alexa skill",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "alexa",
+    "tbo",
+    "appointment",
+    "car",
+    "dealer"
+  ],
+  "author": "steffen.malisi@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.54.0"
+  }
+}

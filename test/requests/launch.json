@@ -1,0 +1,20 @@
+{
+  "session": {
+    "sessionId": "SessionId.294bc81e-238c-41bd-a721-ea1131e6e63e",
+    "application": {
+      "applicationId": "appId"
+    },
+    "attributes": {},
+    "user": {
+      "userId": "amzn1.ask.account.911"
+    },
+    "new": true
+  },
+  "request": {
+    "type": "LaunchRequest",
+    "requestId": "EdwRequestId.4814f7be-36e3-4eb8-a7f1-6ac0343b6530",
+    "locale": "de-DE",
+    "timestamp": "2017-05-22T07:52:53Z"
+  },
+  "version": "1.0"
+}

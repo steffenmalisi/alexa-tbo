@@ -1,0 +1,22 @@
+{
+  "name": "alexa-tbo",
+  "version": "1.0.0",
+  "description": "Alexa skill for making an appointment with your car dealer",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "alexa",
+    "tbo",
+    "appointment",
+    "car",
+    "dealer"
+  ],
+  "author": "steffen.malisi@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "alexa-sdk": "^1.0.9",
+    "lodash": "^4.17.4"
+  }
+}
