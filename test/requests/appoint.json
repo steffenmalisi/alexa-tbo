@@ -1,0 +1,32 @@
+{
+    "session": {
+        "sessionId": "SessionId.294bc81e-238c-41bd-a721-ea1131e6e63e",
+        "application": {
+            "applicationId": "appId"
+        },
+        "attributes": {
+            "STATE": "_APPOINTMODE",
+            "VEHICLE": "Black Mustang",
+            "MILEAGE": "35256",
+            "DATE": "2017-11-17T10:30:00.000Z",
+            "REASON": "Service"
+        },
+        "user": {
+            "userId": "amzn1.ask.account.911",
+            "accessToken": "accessToken"
+        },
+        "new": false
+    },
+    "request": {
+        "type": "IntentRequest",
+        "requestId": "amzn1.echo-api.request.c09c4266-c611-404b-9a03-41ea01e63458",
+        "locale": "de-DE",
+        "timestamp": "2017-10-09T10:14:43Z",
+        "intent": {
+            "name": "AppointIntent",
+            "confirmationStatus": "NONE"
+        },
+        "dialogState": "STARTED"
+    },
+    "version": "1.0"
+}

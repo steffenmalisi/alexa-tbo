@@ -1,0 +1,92 @@
+{
+    "session": {
+        "sessionId": "SessionId.294bc81e-238c-41bd-a721-ea1131e6e63e",
+        "application": {
+            "applicationId": "appId"
+        },
+        "attributes": {
+            "STATE": "_PREPAREMODE"
+        },
+        "user": {
+            "userId": "amzn1.ask.account.911",
+            "accessToken": "accessToken"
+        },
+        "new": false
+    },
+    "request": {
+        "type": "IntentRequest",
+        "requestId": "amzn1.echo-api.request.047f6489-09b6-4118-8409-d7044e5c279d",
+        "timestamp": "2017-10-09T10:14:31Z",
+        "locale": "de-DE",
+        "intent": {
+            "name": "PrepareIntent",
+            "confirmationStatus": "CONFIRMED",
+            "slots": {
+                "Vehicle": {
+                    "name": "Vehicle",
+                    "value": "gelbe",
+                    "resolutions": {
+                        "resolutionsPerAuthority": [
+                            {
+                                "authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.1a76e6bc-3a00-46f9-b565-b68afc46e665.VEHICLE",
+                                "status": {
+                                    "code": "ER_SUCCESS_MATCH"
+                                },
+                                "values": [
+                                    {
+                                        "value": {
+                                            "name": "gelbe",
+                                            "id": "e651909c32afc482382409e8ba822dcd"
+                                        }
+                                    },
+                                    {
+                                        "value": {
+                                            "name": "gelber Boxster",
+                                            "id": "47ec967692dd88712252b848f505b578"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "confirmationStatus": "NONE"
+                    }
+                },
+                "Period": {
+                    "name": "Period",
+                    "value": "2017-11-17",
+                    "confirmationStatus": "NONE"
+                },
+                "Reason": {
+                    "name": "Reason",
+                    "value": "unfall",
+                    "resolutions": {
+                        "resolutionsPerAuthority": [
+                            {
+                                "authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.1a76e6bc-3a00-46f9-b565-b68afc46e665.REASON",
+                                "status": {
+                                    "code": "ER_SUCCESS_MATCH"
+                                },
+                                "values": [
+                                    {
+                                        "value": {
+                                            "name": "Unfall",
+                                            "id": "4de97c69c4cee4603fb8c37a905af6c3"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "confirmationStatus": "NONE"
+                    }
+                },
+                "Mileage": {
+                    "name": "Mileage",
+                    "value": "4500",
+                    "confirmationStatus": "NONE"
+                }
+            }
+        },
+        "dialogState": "IN_PROGRESS"
+    },
+    "version": "1.0"
+}

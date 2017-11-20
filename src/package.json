@@ -16,7 +16,10 @@
   "author": "steffen.malisi@gmail.com",
   "license": "ISC",
   "dependencies": {
-    "alexa-sdk": "^1.0.9",
-    "lodash": "^4.17.4"
+    "alexa-sdk": "^1.0.20",
+    "googleapis": "^22.2.0",
+    "lodash": "^4.17.4",
+    "moment": "^2.19.2",
+    "moment-range": "^3.0.3"
   }
 }

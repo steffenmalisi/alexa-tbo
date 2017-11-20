@@ -45,8 +45,8 @@ function context() {
 }
 
 var appConfig = require('../src/app.config.json');
-var lambda = require('../src/index.js');
-var event = require('./requests/prepare.json');
+var lambda = require('../src/index');
+var event = require('./requests/confirmPrepare-confirmed.json');
 event.session.application.applicationId = appConfig.appId;
 lambda.handler(event, context());
 

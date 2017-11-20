@@ -14,8 +14,8 @@ var languageStrings = {
             'MSG_PREPARE_SLOT_PERIOD' : 'Wann möchtest du den Termin vereinbaren?',
             'MSG_PREPARE_SLOT_REASON' : 'Warum muss dein Fahrzeug in die Werkstatt?',
             'MSG_PREPARE_CONFIRM' : '<say-as interpret-as="interjection">okey dokey.</say-as>. Folgende Eingaben habe ich erfasst: Fahrzeug: ${vehicle}, Kilometerstand: ${mileage}, Zeitraum: ${period}, Grund: ${reason}. Sind die Eingaben korrekt?',
-            'MSG_APPOINT_NEXT_APPOINTMENT' : 'Der nächste freie Termin deiner Werkstatt ist der ${appointment}. Möchtest du diesen Termin buchen? Dann antworte mit Buchung durchführen.',
-            'MSG_APPOINT_BOOKING_SUCCESS' : '<say-as interpret-as="interjection">abrakadabra.</say-as> Ich habe dir den Termin gebucht. Du erhälst eine Bestätigung von der Werkstatt per E-Mail. Den ${date} habe ich direkt in deinen Kalender eingetragen.',
+            'MSG_APPOINT_NEXT_APPOINTMENT' : 'Der nächste freie Termin deiner Werkstatt, der auch mit deinem Kalender übereinstimmt, ist der <say-as interpret-as="date">${date}</say-as> um ${time} Uhr. Aufgrund deiner Angabe zum Grund des Werkstattbesuchs, habe ich eine Aufenthaltsdauer von mindestens einer Stunde berechnet. Aus diesem Grund reserviere ich dir ein Ersatzfahrzeug. Möchtest du diesen Termin buchen? Dann antworte mit Buchung durchführen.',
+            'MSG_APPOINT_BOOKING_SUCCESS' : '<say-as interpret-as="interjection">abrakadabra.</say-as> Ich habe dir den Termin gebucht. Du erhälst eine Bestätigung von der Werkstatt per E-Mail. Den <say-as interpret-as="date">${date}</say-as> um ${time} Uhr habe ich direkt in deinen Kalender eingetragen. Bitte beachte, dass du laut durchschnittlicher Verkehrslage zu diesem Zeitpunkt circa 34 Minuten zu deinem Händler benötigst. Ich werde dich rechtzeitig an die Abfahrt erinnern.',
             'MSG_NOT_IMPLEMENTED_YET' : 'Damit kann ich aktuell noch nicht umgehen. Aber mein großer Meister wird es mir bald beibringen.',
         }
     }
